@@ -47,7 +47,7 @@ Additionally, I learned that before applying the Apriori algorithm, the dataset 
 
 ●  Generating Frequent Itemsets: The first step involves identifying frequent itemsets from the transaction data using the Apriori algorithm. A minimum support threshold of 5% is set, meaning itemsets that appear in at least 5% of transactions are considered frequent. The use_colnames=True parameter ensures that the original column names are used in the output for better interpretability.
 
-●  Generating Association Rules: Once the frequent itemsets are identified, the next step is to generate association rules. The association_rules function is used to find relationships between items, with confidence as the primary metric. A minimum confidence threshold of 4% is applied, meaning the rules generated must have at least a 4% probability of the consequent occurring given the antecedent.
+●  Generating Association Rules: Once the frequent itemsets were identified, the next step is was generate association rules. The association_rules function is used to find relationships between items, with confidence as the primary metric. A minimum confidence threshold of 4% was applied, meaning the rules generated must have at least a 4% probability of the consequent occurring given the antecedent.
 
 ●  Sorting the Rules by Lift: After generating the association rules, they are sorted by the lift metric in descending order. Lift measures the strength of the rule, indicating how much more likely the consequent is given the antecedent, compared to random chance. Sorting by lift helps prioritize the most impactful rules.
 
