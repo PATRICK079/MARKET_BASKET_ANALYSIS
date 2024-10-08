@@ -20,3 +20,9 @@ KINDLY CHECK MY CUSTOMER SEGMENTATION ANALYSIS FOR BETTER UNDERSTANDING: https:/
 # Problem Encountered
 
 During the project, I encountered an issue where the column names in the dataset were inconsistent, with some being in uppercase, others in lowercase, and some containing spaces. This inconsistency caused errors when i fed the data to my model.
+
+# Explanation of Change
+To resolve this, i went back to my dataframe and critically check every row for irregularities. i began by standardizing the column names by converting them all to lowercase and replacing any spaces with underscores. This ensured uniformity and prevented further errors during the analysis.  below are the codes
+
+df.columns.str.lower().str.replace(' ', '_')
+df['itemdescription'].astype('str').apply (lambda x: re.sub(r'\s+', ' ', x).strip())
