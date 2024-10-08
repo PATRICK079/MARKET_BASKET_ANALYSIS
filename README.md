@@ -51,7 +51,7 @@ Additionally, I learned that before applying the Apriori algorithm, the dataset 
 
 ●  Sorting the Rules by Lift: After generating the association rules, they are sorted by the lift metric in descending order. Lift measures the strength of the rule, indicating how much more likely the consequent is given the antecedent, compared to random chance. Sorting by lift helps prioritize the most impactful rules.
 
-
+  # KINDLY HAVE A LOOK AT MY DETAILED NOTEBOOK FOR MY INSIGHTS AND RECOMMENDATIONS. THANK YOU
 
 # Dataset Incitation 
  source: KAGGLE
