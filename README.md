@@ -14,4 +14,9 @@ Association Rules are widely used to analyze retail basket or transaction data a
 
 Now, they  require expertise in analyzing their  historical sales data to identify associations between store items. By understanding their  item associations, they can optimize store layout and tailor loyalty programs to encourage additional purchases among high spenders. The goal is to leverage these insights to strategically arrange products and design personalized loyalty offerings that boost sales and strengthen customer loyalty.
 
-KINDLY CHECK MY CUSTOMER SEGMENTATION PROJECT FOR BETTER UNDERSTANDING: https://github.com/PATRICK079/CUSTOMER_SEGMENTATION.git
+KINDLY CHECK MY CUSTOMER SEGMENTATION ANALYSIS FOR BETTER UNDERSTANDING: https://github.com/PATRICK079/CUSTOMER_SEGMENTATION.git
+
+
+# Problem Encountered
+
+During the project, I encountered an issue where the column names in the dataset were inconsistent, with some being in uppercase, others in lowercase, and some containing spaces. This inconsistency caused errors when i fed the data to my model.
