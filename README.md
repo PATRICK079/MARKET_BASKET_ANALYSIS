@@ -43,7 +43,10 @@ I gained a comprehensive understanding of the steps required to build a robust A
 
 Additionally, I learned that before applying the Apriori algorithm, the dataset must be converted into a transaction list format. This is essential for the algorithm to identify frequent itemsets and generate rules. I also discovered that when a dataset does not include headers, it's necessary to set header=None when reading the data to avoid errors and ensure proper data loading.
 
-
+# Dataset Incitation 
+ source: KAGGLE
+ 
+ URL: www.kaggle.com/datasets/heeraldedhia/groceries-dataset
 
 
 
