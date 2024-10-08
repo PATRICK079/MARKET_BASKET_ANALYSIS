@@ -27,3 +27,24 @@ To resolve this, i went back to my dataframe and critically check every row for 
 df.columns.str.lower().str.replace(' ', '_')
 
 df['itemdescription'].astype('str').apply (lambda x: re.sub(r'\s+', ' ', x).strip())
+
+
+
+#  Key Learnings from the Project
+
+
+I gained a comprehensive understanding of the steps required to build a robust Apriori model for association rule mining. This included learning the key metrics—support, confidence, and lift—and understanding the intuition behind each:
+
+● Support:  Indicates how frequently an itemset appears in the dataset.
+
+● Confidence:  Measures the likelihood that an item is purchased given that another item is purchased.
+
+● Lift:  Assesses the strength of a rule by comparing the confidence with the expected confidence under independence.
+
+Additionally, I learned that before applying the Apriori algorithm, the dataset must be converted into a transaction list format. This is essential for the algorithm to identify frequent itemsets and generate rules. I also discovered that when a dataset does not include headers, it's necessary to set header=None when reading the data to avoid errors and ensure proper data loading.
+
+
+
+
+
+
