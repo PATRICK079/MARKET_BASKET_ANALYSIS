@@ -53,7 +53,7 @@ Additionally, I learned that before applying the Apriori algorithm, the dataset 
 
   # KINDLY HAVE A LOOK AT MY DETAILED NOTEBOOK FOR MY INSIGHTS AND RECOMMENDATIONS. THANK YOU
 
-# Dataset Incitation 
+# Dataset citation 
  source: KAGGLE
  
  URL: www.kaggle.com/datasets/heeraldedhia/groceries-dataset
